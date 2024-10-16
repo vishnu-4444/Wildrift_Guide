@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#loginbody {
+    background-image: url(https://wallpapers.com/images/featured/1920x1080-league-of-legends-background-m54i08fbn7lnv13f.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+}
+
+.userlabel, .passlabel {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-top: 20px; 
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.remember {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+.userlabel {
+    margin-top: 70px;
+}
+
+.username,.password, .logbtn {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 34px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+.logbtn {
+    margin-top: 40px;
+    margin-left: 55px;
+    width: 75%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 34px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.resetpass {
+    text-decoration: none;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    margin-left: 120px;
+}
